@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="progress hidden">
+        <div class="progress--bar"></div>
+    </div>
+    
+    <div class="intro">
+        <h2>Bem-vindo ao Quiz!</h2>
+        <img src="images/quiz.PNG" alt="logo do quiz">
+        <p>Teste seus conhecimentos sobre Javascript.</p>
+        <button id="startQuizBtn"> Começar </button>
+    </div>
+
+    <div class="questionArea">
+        <div class="question">...</div>
+        <div class="options">
+            
+        </div>
+    </div>
+
+    <div class="scoreArea">
+        <img src="images/5star-removebg-preview.png" class="prizeImage" />
+        <div class="scoreText1">Parabéns!</div>
+        <div class="scorePct">Acertou 99%</div>
+        <div class="scoreText2">Você respondeu 9 questões e acertou 8.</div>
+        <button>Fazer novamente</button>
+    </div>
+
+    <footer>Desenvolvido por Brian Duarte <br>
+        <br>
+    &copy; Todos os direitos reservados!</footer>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

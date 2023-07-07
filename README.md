@@ -16,4 +16,4 @@ Stacks utilizadas:
 
 <hr>
 
-Deploy: <a href="https://brianmduarte.github.io/Quadro_de_desenhos/" target="_blank"> Quiz </a>
+Deploy: <a href="https://brianmduarte.github.io/projeto_quiz/" target="_blank"> Quiz </a>
